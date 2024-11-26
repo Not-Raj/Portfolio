@@ -1,0 +1,11 @@
+<CardSpotlight radius={300} color="#2200EE" className="spot-cards">
+    <div className="p-5 relative">
+        <div className="absolute top-0 left-0 p-3 text-white text-xl font-bold" style={{transform: "rotate(-10deg)",marginTop: "-80px",marginLeft: "-75px"}}>
+                <Image className="h-20 w-20 mix-blend-darken" src={q1} alt="temptalk image" 
+                // style={{mixBlendMode:"color-burn"}}
+                />
+        </div>
+        <h2 className="text-2xl font-bold text-white">ttl</h2>
+        <p className="text-gray-400">txt</p>
+    </div>
+</CardSpotlight>
